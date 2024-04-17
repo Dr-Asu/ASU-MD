@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/dr-asu/ASU-MD">
-    <img src="https://i.imgur.com/MClOeqe.jpeg">
+    <img src="https://wallpapercave.com/uwp/uwp4347654.jpeg">
   </a>
 
 <h1 align="center"> ASU MD
