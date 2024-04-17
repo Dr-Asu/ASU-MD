@@ -1,6 +1,6 @@
 require("./Configurations");
 const {
-  default: ASUConnect,
+  default: asuConnect,
   DisconnectReason,
   fetchLatestBaileysVersion,
   downloadContentFromMessage,
@@ -74,7 +74,7 @@ const startASU = async () => {
 
   const { version, isLatest } = await fetchLatestBaileysVersion();
 
-  const ASU = ASUConnect({
+  const ASU = asuConnect({
     logger: pino({ level: "silent" }),
     printQRInTerminal: true,
     browser: ["ASU", "Safari", "1.0.0"],
